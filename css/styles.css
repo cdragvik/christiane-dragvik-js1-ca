@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(249, 249, 210);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h2 { 
+    color: rgb(159, 3, 3);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav a {
+    display: inline-block;
+    border: 1px solid rgb(0, 128, 0);
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(0, 128, 0);
+    color: #fff;
+    border: 1px solid rgb(0, 128, 0);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+button:hover {
+    text-decoration:underline;
+}
+
+.characters,
+.error {
+    padding: 20px;
+    border: 1px solid rgb(0, 128, 0);
+    background-color: #fff;
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.character-section {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#form {
+    width: 500px;
+}
+ 
+label {
+    margin-top: 20px;
+    display: inline-block;  
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.error-message {
+    display: none;
+    color:rgb(159, 3, 3);
+    margin-top: 2px;
+}
